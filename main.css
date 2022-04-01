@@ -1,0 +1,35 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+h1{
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+}
+.button {
+    margin-left: 250px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    border: 1px solid blue;
+    background-color: blue;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.button:hover {
+    border: 1px solid blue;
+    background-color: #fff;
+    color: blue;
+}
+.button:active{
+    opacity: 0.6;
+}
